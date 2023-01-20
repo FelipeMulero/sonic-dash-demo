@@ -1,0 +1,50 @@
+body{
+    background: #c2c1c1cb;
+}
+
+.dinoRex {
+width: 100px;
+height: 100px;
+background-image:url(Sonic_1_Running.webp);
+position: absolute;
+bottom: 0;
+}
+
+.cactus{
+position: absolute;
+width: 100px;
+height: 100px;
+bottom: 0;
+background-image: url(Knuckles-punch.gif)
+}
+.game-over {
+ text-align: center;
+ color: black;
+ margin-top: 50px 0;
+ font-family: arial;
+}
+
+.game-over-pontos {
+    text-align: center;
+    color: black;
+    margin-top: 50px 0;
+    font-family: arial;
+   }
+
+@keyframes slideright{
+from {
+background-position: 70000%;
+}
+to {
+background-position: 0%;
+ }
+}
+.background {
+position: absolute;
+bottom: 0px;
+background-image: url(fundosonic.webp); 
+background-repeat: repeat-x;
+ animation: slideright 600s infinite Linear;
+ width:100%;
+height: 500px;
+}
